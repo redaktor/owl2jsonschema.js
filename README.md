@@ -16,7 +16,7 @@ OWL/RDF/XML is Lingua Franca. Let us create a canonical JSON representation for 
 It is planned to support several proposals for JSON Schema v5 draft which close gaps between OWL and XML Schema. For example <br/>
 - [x] [translations](https://github.com/json-schema/json-schema/wiki/translations-(v5-proposal))
 - [ ] [$data](https://github.com/json-schema/json-schema/wiki/%24data-(v5-proposal))
-- [ ] [$propertyLinks](https://github.com/json-schema/json-schema/wiki/propertyLinks-(v5-proposal))
+- [ ] [propertyLinks](https://github.com/json-schema/json-schema/wiki/propertyLinks-(v5-proposal))
 
 
 This is nightly written from scratch, might currently contain bugs and is incomplete.<br/>

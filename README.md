@@ -33,7 +33,7 @@ git clone https://github.com/redaktor/owl2jsonschema.js.git
 ```
 
 ```
-cd owl2jsonschema
+cd owl2jsonschema.js
 ```
 
 ```

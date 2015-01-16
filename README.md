@@ -6,7 +6,6 @@
 Convert OWL/RDFS XML to JSON Schema.
 ---
 
-***
 OWL 2 JSON SCHEMA wants to build a bridge between the semantically XML web and the semantically JSON web and is a converter from OWL / RDFS expressed in XML to JSON Schema (currently draft 4).
 Full XML Schema support will come soon. For now an OWL Ontology is required.
 
@@ -41,9 +40,9 @@ cd owl2jsonschema
 ```
 npm install
 ```
- A demo is included. It will create the JSON Schemas of the [dbpedia](http://dbpedia.org/About) Ontology. This will create the schema files in demo/OUTPUT.
+ A demo is included. It will create the JSON Schemas of the [dbpedia](http://dbpedia.org/About) Ontology.<br/> This will create the schema files in demo/OUTPUT:
 
-```
+```javascript
 node demo
 ```
 

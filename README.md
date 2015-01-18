@@ -19,8 +19,8 @@ It is planned to support several **proposals for JSON Schema v5 draft** which cl
 - [ ] [$data](https://github.com/json-schema/json-schema/wiki/%24data-(v5-proposal))
 - [ ] [propertyLinks](https://github.com/json-schema/json-schema/wiki/propertyLinks-(v5-proposal))
 
-So whenever the doc. refers to "JSON Schema" it means :
-"JSON Schema and hyperschema" including the above mentioned inofficial proposals.
+So whenever the documentation refers to "JSON Schema" it means :<br/>
+"JSON Schema and hyperschema - including the above mentioned inofficial proposals".
 
 This is nightly written from scratch, might currently contain bugs and is incomplete.<br/>
  

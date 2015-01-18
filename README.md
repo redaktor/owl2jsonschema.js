@@ -13,11 +13,14 @@ Full XML Schema support will come soon. For now an OWL Ontology is required.
 Most ontologies on the web use OWL and RDF/Turtle or RDF/NTriples which can be translated 1:1 to RDF/XML. <br />
 OWL/RDF/XML is Lingua Franca. Let us create a canonical JSON representation for this.
 
-It is planned to support several proposals for JSON Schema v5 draft which close gaps between OWL and XML Schema. For example <br/>
+It is planned to support several **proposals for JSON Schema v5 draft** which close gaps between OWL and XML Schema. For example <br/>
 - [x] [translations](https://github.com/json-schema/json-schema/wiki/translations-(v5-proposal))
+- [ ] [switch](https://github.com/json-schema/json-schema/wiki/switch-(v5-proposal))
 - [ ] [$data](https://github.com/json-schema/json-schema/wiki/%24data-(v5-proposal))
 - [ ] [propertyLinks](https://github.com/json-schema/json-schema/wiki/propertyLinks-(v5-proposal))
 
+So whenever the doc. refers to "JSON Schema" it means :
+"JSON Schema and hyperschema" including the above mentioned inofficial proposals.
 
 This is nightly written from scratch, might currently contain bugs and is incomplete.<br/>
  

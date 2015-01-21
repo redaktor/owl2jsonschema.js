@@ -3,7 +3,7 @@
 > > Do not use for production yet. Might change or rename at anytime.
 >
 
-Convert OWL/RDFS XML Schema to JSON Schema.
+Convert OWL / RDFS / XML Schema to JSON Schema.
 ---
 
 OWL 2 JSON SCHEMA wants to build a bridge between the semantically XML web and the semantically JSON web and is a converter from OWL / RDFS expressed in XML to JSON Schema (currently draft 4).

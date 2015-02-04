@@ -1,7 +1,6 @@
 # owl2jsonschema.js
 > ### **WIP**
 > > Do not use for production yet. Might change or rename at anytime.
->
 
 Convert OWL / RDFS / XML Schema to JSON Schema.
 ---
@@ -10,7 +9,9 @@ OWL 2 JSON SCHEMA wants to build a bridge between the semantically XML web and t
 Full XML Schema support will come soon. For now an OWL Ontology is required.
 
 *Why?* <br/>
-Most ontologies on the web use OWL+RDF/XML or RDF/Turtle or RDF/NTriples (which can be translated 1:1 to RDF/XML). <br />spec.: "The primary exchange syntax for OWL 2 is RDF/XML; this is indeed the only syntax that must be supported by all OWL 2 tools."<br />
+Most ontologies on the web use OWL+RDF/XML or RDF/Turtle or RDF/NTriples (which translate 1:1 to RDF/XML). <br />spec.: <br />
+> "The primary exchange syntax for OWL 2 is RDF/XML; this is indeed the only syntax that must be supported by all OWL 2 tools."
+
 So RDF/XML Schema is Lingua Franca. Let us create a canonical JSON representation for this.
 
 It is planned to support several **proposals for JSON Schema v5 draft** which close gaps between OWL and JSON Schema. For example <br/>

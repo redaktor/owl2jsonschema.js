@@ -23,6 +23,7 @@ So whenever the documentation refers to "JSON Schema" it means :<br/>
 "JSON Schema and hyperschema - including the above mentioned inofficial proposals".
 
 This is nightly written from scratch, might currently contain bugs and is incomplete.<br/>
+Currently working on: The resolving of external URIs and Ontologies.
  
 ## Supported platforms
 

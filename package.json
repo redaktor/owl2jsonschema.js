@@ -1,31 +1,42 @@
 {
-	"name": "owl2jsonschema",
-	"version": "0.0.1",
-	"author": {
-		"name": "Sebastian Lasse",
-		"org": "redaktor",
-		"email": "api@redaktorcms.com"
-	},
-	"description": "Converts XML Schema and OWL/RDFS to a canonical JSON Schema (draft 4) representation. **WIP** Do not use for production. Might change or rename at anytime.",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/redaktor/owl2jsonschema.git"
-	},
-	"main": "index",
-	"contributors": [
-		{
-			"name": "Geraint Luff",
-			"email": "luffgd@gmail.com"
-		}
-	],
-	"dependencies": {
-		"node-expat": "^2.3.0",
-		"mkdirp": "^0.5.0",
-		"callsite": "^1.0.0"
-	},
-	"bugs": {
-		"url": "https://github.com/redaktor/owl2jsonschema/issues"
-	},
-	"homepage": "https://github.com/redaktor/owl2jsonschema",
-	"keywords": ["JSON Schema", "OWL", "OWL2", "Web Ontology Language", "XML", "RDFS", "RDF", "JSON", "Schema"]
+  "name": "owl2jsonschema",
+  "version": "0.0.1",
+  "author": {
+    "name": "Sebastian Lasse",
+    "org": "redaktor",
+    "email": "api@redaktorcms.com"
+  },
+  "description": "Converts XML Schema and OWL/RDFS to a canonical JSON Schema (draft 4) representation. **WIP** Do not use for production. Might change or rename at anytime.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/redaktor/owl2jsonschema.git"
+  },
+  "main": "index",
+  "contributors": [
+    {
+      "name": "Geraint Luff",
+      "email": "luffgd@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "mkdirp": "^0.5.0",
+    "node-expat": "^2.3.5",
+    "rdflib": "^0.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/redaktor/owl2jsonschema/issues"
+  },
+  "homepage": "https://github.com/redaktor/owl2jsonschema",
+  "keywords": [
+    "JSON Schema",
+    "OWL",
+    "OWL2",
+    "Web Ontology Language",
+    "XML",
+    "RDFS",
+    "RDF",
+    "JSON",
+    "Schema"
+  ]
 }

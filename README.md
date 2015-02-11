@@ -63,7 +63,7 @@ parser.parse('http://mappings.dbpedia.org/server/ontology/export' /*, [callback 
 ```
 OR<br/>
 // filepath, options, callback<br/>
-(if file path is relative then './' is the folder of your script)
+(if filepath is relative then './' is the folder of your script)
 ```javascript
 parser.parse('./export.xml' /*, [options object], [callback function]*/);
 ```

@@ -1,6 +1,6 @@
 # owl2jsonschema.js
 > ### **WIP**
-> > Do not use for production yet. Might change or rename at anytime.
+> > Do not use for production yet. Might change or rename at anytime. Do report bugs.
 
 Convert OWL / RDFS / XML Schema to JSON Schema.
 ---

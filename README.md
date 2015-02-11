@@ -50,22 +50,27 @@ node demo
 ```
 
 ## Usage
+```
+var owl2jsonschema = require('owl2jsonschema');
+var parser = new owl2jsonschema(/*[options object]*/);
+```
+
+and now parse *url* OR *file* OR *string*
+
 // url, options, callback
 ```
-var parseOWL = require('owl2jsonschema');
-parseOWL('http://mappings.dbpedia.org/server/ontology/export' /*, [options object], [callback function]*/ );
+parser.parse('http://mappings.dbpedia.org/server/ontology/export' /*, [callback function]*/ );
 ```
-or<br/>
+OR<br/>
 // file, options, callback<br/>
 (if file path is relative then './' is the folder of your script)
 ```
-var parseOWL = require('owl2jsonschema');
-parseOWL('./export.xml' /*, [options object], [callback function]*/);
+parser.parse('./export.xml' /*, [options object], [callback function]*/);
 ```
-or<br/>
+OR<br/>
 // string, options, callback
 ```
-parseOWL('<?xml><rdf:RDF><owl:Ontology>...</owl:Ontology>...</rdf:RDF>' /*, [options object], [callback function]*/);
+parser.parse('<?xml><rdf:RDF><owl:Ontology>...</owl:Ontology>...</rdf:RDF>' /*, [callback function]*/);
  ```
  
 ## Contributing

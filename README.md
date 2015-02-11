@@ -45,12 +45,12 @@ npm install
 ```
  A demo is included. It will create the JSON Schemas of the [dbpedia](http://dbpedia.org/About) Ontology.<br/> This will create the schema files in demo/OUTPUT:
 
-```javascript
+```
 node demo
 ```
 
 ## Usage
-```
+```javascript
 var owl2jsonschema = require('owl2jsonschema');
 var parser = new owl2jsonschema(/*[options object]*/);
 ```
@@ -58,18 +58,18 @@ var parser = new owl2jsonschema(/*[options object]*/);
 and now parse *url* OR *file* OR *string*
 
 // url, options, callback
-```
+```javascript
 parser.parse('http://mappings.dbpedia.org/server/ontology/export' /*, [callback function]*/ );
 ```
 OR<br/>
 // file, options, callback<br/>
 (if file path is relative then './' is the folder of your script)
-```
+```javascript
 parser.parse('./export.xml' /*, [options object], [callback function]*/);
 ```
 OR<br/>
 // string, options, callback
-```
+```javascript
 parser.parse('<?xml><rdf:RDF><owl:Ontology>...</owl:Ontology>...</rdf:RDF>' /*, [callback function]*/);
  ```
  

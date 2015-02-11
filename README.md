@@ -73,6 +73,9 @@ OR<br/>
 parser.parse('<?xml><rdf:RDF><owl:Ontology>...</owl:Ontology>...</rdf:RDF>' /*, [callback function]*/);
  ```
  
+ This will write JSON schema **files** - you can specify options - see the code for now.
+ Several Database support is planned within the redaktor boilerplate.
+ 
 ## Contributing
  
 1. Fork it!

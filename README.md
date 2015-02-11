@@ -1,6 +1,6 @@
 # owl2jsonschema.js
 > ### **WIP**
-> > Do not use for production yet. Might change or rename at anytime. Do report bugs.
+> > Do not use for production yet. Might change or rename at anytime. Do report bugs!
 
 Convert OWL / RDFS / XML Schema to JSON Schema.
 ---
@@ -62,7 +62,7 @@ and now parse *url* OR *file* OR *string*
 parser.parse('http://mappings.dbpedia.org/server/ontology/export' /*, [callback function]*/ );
 ```
 OR<br/>
-// file, options, callback<br/>
+// filepath, options, callback<br/>
 (if file path is relative then './' is the folder of your script)
 ```javascript
 parser.parse('./export.xml' /*, [options object], [callback function]*/);

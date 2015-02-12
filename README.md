@@ -1,6 +1,6 @@
 # owl2jsonschema.js
 > ### **WIP**
-> > Do not use for production yet. Might change or rename at anytime. Do report bugs!
+> > Do not use for production yet. Might change or rename at anytime. Please do report bugs!
 
 Convert OWL / RDFS / XML Schema to JSON Schema.
 ---
@@ -65,7 +65,7 @@ OR<br/>
 // filepath, options, callback<br/>
 (if filepath is relative then './' is the folder of your script)
 ```javascript
-parser.parse('./export.xml' /*, [options object], [callback function]*/);
+parser.parse('./export.xml' /*, [callback function]*/);
 ```
 OR<br/>
 // string, options, callback

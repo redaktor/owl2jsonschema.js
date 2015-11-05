@@ -18,3 +18,8 @@ parser.parse('http://mappings.dbpedia.org/server/ontology/export', function(){
 // parser.parse('./export.xml' /*, [callback function]*/);
 // OR
 // parser.parse('<?xml><rdf:RDF><owl:Ontology>...</owl:Ontology>...</rdf:RDF>' /*, [callback function]*/);
+
+// THIS DOESN'T WORK YET
+//parser.parse('https://raw.githubusercontent.com/coderextreme/x3djson/master/x3d-3.4.owl', function(){
+//	console.log( 'FINAL CALLBACK fn says READY. ;)' ); 
+//});

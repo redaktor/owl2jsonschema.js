@@ -23,7 +23,8 @@
     "callsite": "^1.0.0",
     "mkdirp": "^0.5.0",
     "node-expat": "^2.3.5",
-    "rdflib": "^0.2.0"
+    "rdflib": "^0.2.0",
+    "request": "^2.0.5"
   },
   "bugs": {
     "url": "https://github.com/redaktor/owl2jsonschema/issues"
